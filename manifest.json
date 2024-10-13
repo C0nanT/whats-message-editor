@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsApp Editor de Mensagem",
+    "version": "1.0",
+    "description": "Edite mensagem com a seta pra cima do teclado",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://web.whatsapp.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+
+  }
+  
