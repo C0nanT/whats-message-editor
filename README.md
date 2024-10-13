@@ -5,6 +5,7 @@
  ```shell
 git clone https://github.com/C0nanT/fill-inputs.git
 ```
+ou acesse o controle de versão ali na direita
 
 2. Vá até o gerenciador de extesões do seu navegador
 4. Habilite o modo desenvolvedor
