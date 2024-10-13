@@ -16,4 +16,5 @@ git clone https://github.com/C0nanT/fill-inputs.git
 Acesse um chat no [WhatsappWeb](https://web.whatsapp.com/) e aperte a seta pra cima do teclado
 
 ## Créditos
-Agradecimentos especiais a [Thiago](https://github.com/thiagobrunodev) por solucionar um dos maiores bugs de todos os tempos! 
+Agradecimentos especiais a [Thiago](https://github.com/thiagobrunodev) por solucionar um dos maiores bugs de todos os tempos!
+E facilitar avida no WhatsappWeb
