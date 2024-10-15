@@ -3,7 +3,7 @@
 
  1.  Clone o repositório
  ```shell
-git clone https://github.com/C0nanT/fill-inputs.git
+git clone https://github.com/C0nanT/whats-message-editor.git
 ```
 ou acesse o controle de versão ali na direita
 
