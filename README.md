@@ -1,3 +1,4 @@
+> **⚠️ AVISO IMPORTANTE:** A atualização do WhatsApp Web de abril/2025 alterou o seletor da mensagem e acabou quebrando a extensão. em breve será corrigido o problema.
 
 ## Como instalar
 
