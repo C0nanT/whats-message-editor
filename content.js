@@ -28,6 +28,8 @@ async function editLastMessage() {
 		".message-out > div:first-of-type"
 	);
 	const lastMessage = messages[messages.length - 1];
+	console.log("Last message: ", lastMessage);
+
 	if (!lastMessage) {
 		return;
 	}
@@ -35,6 +37,7 @@ async function editLastMessage() {
 	mouseEventOf("mouseover")(lastMessage, 0, 0);
 
 	const menuButton = await awaitForElement('[aria-label="Menu de contexto"]');
+	console.log("Menu button: ", menuButton);
 
 	if (!menuButton) {
 		return;
@@ -43,12 +46,14 @@ async function editLastMessage() {
 	menuButton.click();
 
     const editButton = await awaitForElement("#app > div > span:nth-child(8) > div > ul > div > div:nth-child(8) > li");
+	console.log("Edit button: ", editButton);
 
     if (!editButton) {
         return;
     }
 
     editButton.click();
+	console.log("Edit button clicked");
 }
 
 document.addEventListener("keydown", (event) => {
